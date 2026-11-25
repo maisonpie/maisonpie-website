@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Bodoni+Moda:opsz,wght@6..96,400..800&family=Libre+Bodoni:wght@400..700&family=Carlito:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@500;700;800&family=Bodoni+Moda:opsz,wght@6..96,400..800&family=Libre+Bodoni:wght@400..700&family=Carlito:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
 :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0}
@@ -63,6 +63,8 @@ nav a:hover{text-decoration:underline;text-underline-offset:5px}
 section{padding-block:clamp(56px,9vw,112px);border-bottom:1px solid var(--line)}
 h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.03em;font-weight:500}
 h2{font-size:clamp(32px,4.8vw,60px);line-height:1.04;font-weight:500;font-variation-settings:"wdth" 112;margin-top:24px;max-width:18ch}
+h2.display{font-family:"Archivo",Arial,sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:-.01em;font-size:clamp(40px,7.4vw,108px);line-height:.98;max-width:none}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:56px}
 p{margin:0}
 .lede{font-size:clamp(18px,1.6vw,21px);max-width:60ch;color:var(--ink)}
 .muted{color:var(--muted)}
@@ -314,12 +316,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <section id="studio">
     <div class="wrap">
       <div class="crumb"><b>Maison Pie</b> → Studio <span class="rule"></span><span>A-100</span></div>
-      <h2>We build the place a brand is remembered by.</h2>
+      <h2 class="display">We design the space where your brand needs a place to land through the bold gesture.</h2>
       <div class="two">
         <div>
-          <p class="lede">A logo lives on a screen. A space lives in the body: the weight of a door handle, the light at 4pm, the view a window decides to keep.</p>
+          <div class="eyebrow">What we do</div>
+          <p class="lede">MAISON PIE is the space design studio for brands that are ready to leave the screen and exist in the room.</p>
+          <p class="muted">We work across strategy, identity and architecture to shape flagship stores, pop-ups, showrooms and hospitality spaces — carrying a brand's idea past the pitch deck and into a door handle, a light at 4pm, a view a window decides to keep.</p>
           <p class="muted">Maison Pie was founded by Louis, an architect and interior designer who has spent his career on brand flagships, hotels and retail landmarks across Korea. The studio now brings that same thinking to brands that are earlier in their story and want their first space to say exactly who they are.</p>
-          <p class="muted">We work across strategy, spatial design and the making of it, so the idea survives all the way to opening day.</p>
         </div>
         <dl class="facts">
           <div class="fact"><dt>For</dt><dd>Startups and small brands opening a first store, pop-up, showroom or flagship</dd></div>
