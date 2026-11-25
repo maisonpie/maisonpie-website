@@ -146,8 +146,9 @@ body{font-size:18px}
 /* studio */
 .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);margin-top:40px}
 .two p+p{margin-top:18px}
-.facts{display:grid;border-top:1px solid var(--line);align-self:start}
+.facts{display:grid;align-self:start;margin-top:56px}
 .fact{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding-block:16px;border-bottom:1px solid var(--line)}
+.fact:last-child{border-bottom:none}
 .fact dt{font-family:var(--mono);font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:3px}
 .fact dd{margin:0}
 @media (max-width:820px){.two{grid-template-columns:1fr}}
@@ -308,8 +309,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
           <p class="muted">Maison Pie was founded by Louis, an architect and interior designer who has spent his career on brand flagships, hotels and retail landmarks across Korea. The studio now brings that same thinking to brands that are earlier in their story and want their first space to say exactly who they are.</p>
         </div>
         <dl class="facts">
+          <div class="fact"><dt>For</dt><dd>Startups and small brands opening a first store, pop-up, showroom or flagship</dd></div>
           <div class="fact"><dt>Scale</dt><dd>From a 10㎡ pop-up booth to a full building</dd></div>
           <div class="fact"><dt>Services</dt><dd>Projects (architecture & interiors), Space Pin-up (pop-up & showroom concepts), Playbook (brand space guidelines)</dd></div>
+          <div class="fact"><dt>Based</dt><dd>Hong Kong · Canada from spring 2027 · working globally</dd></div>
         </dl>
       </div>
     </div>
